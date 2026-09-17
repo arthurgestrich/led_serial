@@ -3,7 +3,7 @@ Aplicação web desenvolvida com Flask e HTML para controlar um LED conectado a 
 
 Controle de LED com Flask e Arduino
 
-Requisitos
+Requisitos:
 
 Arduino
 
