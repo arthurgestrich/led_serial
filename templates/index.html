@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Controle do LED</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Controle do LED</h1>
+        <button class="ligar" onclick="ligarLed()">Ligar LED</button>
+        <button class="desligar" onclick="desligarLed()">Desligar LED</button>
+    </div>
+
+    <script>
+        function ligarLed() {
+            fetch('/ligar');
+        }
+
+        function desligarLed() {
+            fetch('/desligar');
+        }
+    </script>
+</body>
+</html>

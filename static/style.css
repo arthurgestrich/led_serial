@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: default;
+}
+
+h1{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.main{
+    display: block;
+    text-align: center;
+}
+
+button{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    border: 2px solid black;
+    padding: 16px;
+    border-radius: 15px;
+    width: 150px;
+    margin-top: 60px;
+    box-shadow: 5px 3px 20px 1px;
+}
+
+.ligar{
+    margin-right: 60px;
+}
